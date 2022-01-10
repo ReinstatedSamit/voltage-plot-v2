@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background: white;
+  overflow-x: hidden;
+  min-height: 100vh;
+  .header {
+    background-color: #6f42c1;
+    color: white;
+    height: 4rem;
+    overflow-x: hidden;
+  }
+  .plots {
+    .plot {
+      padding: 1rem;
+    }
+  }
+}
+
+.optionsWindow {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.432);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .options__card {
+    width: 60%;
+    background: blueviolet;
+    padding: 1rem;
+    border-radius: 15px;
+    .options {
+      list-style: none;
+      .option {
+        display: flex;
+        justify-content: space-around;
+        text-transform: uppercase;
+        font-weight: 700;
+        background: rgba(0, 0, 0, 0.281);
+        padding: 0.3rem;
+        margin: 0.3rem;
+        border-radius: 10px;
+        color: white;
+      }
+    }
+  }
+}
